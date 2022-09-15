@@ -12,6 +12,7 @@
 		5BD218E728CFDB4B00D1F941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD218E628CFDB4B00D1F941 /* Assets.xcassets */; };
 		5BD218EA28CFDB4B00D1F941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD218E828CFDB4B00D1F941 /* LaunchScreen.storyboard */; };
 		5BD218F528D0195800D1F941 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD218F428D0195800D1F941 /* LogInView.swift */; };
+		5BFE9EB828D2CDBA00DE3DBE /* OnBordingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFE9EB728D2CDBA00DE3DBE /* OnBordingContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5BD218E928CFDB4B00D1F941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BD218EB28CFDB4B00D1F941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BD218F428D0195800D1F941 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		5BFE9EB728D2CDBA00DE3DBE /* OnBordingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBordingContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5BD218DC28CFDB4800D1F941 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				5BFE9EB628D2CD7400DE3DBE /* OnBording */,
 				5BD218F228D018EB00D1F941 /* Files */,
 				5BD218F328D0192900D1F941 /* Login */,
 			);
@@ -78,6 +81,14 @@
 				5BD218F428D0195800D1F941 /* LogInView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		5BFE9EB628D2CD7400DE3DBE /* OnBording */ = {
+			isa = PBXGroup;
+			children = (
+				5BFE9EB728D2CDBA00DE3DBE /* OnBordingContainerViewController.swift */,
+			);
+			path = OnBording;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BD218F528D0195800D1F941 /* LogInView.swift in Sources */,
+				5BFE9EB828D2CDBA00DE3DBE /* OnBordingContainerViewController.swift in Sources */,
 				5BD218E228CFDB4900D1F941 /* LoginViewController.swift in Sources */,
 				5BD218DE28CFDB4800D1F941 /* AppDelegate.swift in Sources */,
 			);
