@@ -13,6 +13,7 @@
 		5BD218EA28CFDB4B00D1F941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD218E828CFDB4B00D1F941 /* LaunchScreen.storyboard */; };
 		5BD218F528D0195800D1F941 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD218F428D0195800D1F941 /* LogInView.swift */; };
 		5BFE9EB828D2CDBA00DE3DBE /* OnBordingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFE9EB728D2CDBA00DE3DBE /* OnBordingContainerViewController.swift */; };
+		5BFE9EBA28D35D4800DE3DBE /* OnbordingVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFE9EB928D35D4800DE3DBE /* OnbordingVIewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5BD218EB28CFDB4B00D1F941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BD218F428D0195800D1F941 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		5BFE9EB728D2CDBA00DE3DBE /* OnBordingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBordingContainerViewController.swift; sourceTree = "<group>"; };
+		5BFE9EB928D35D4800DE3DBE /* OnbordingVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingVIewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				5BFE9EB728D2CDBA00DE3DBE /* OnBordingContainerViewController.swift */,
+				5BFE9EB928D35D4800DE3DBE /* OnbordingVIewController.swift */,
 			);
 			path = OnBording;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BD218F528D0195800D1F941 /* LogInView.swift in Sources */,
+				5BFE9EBA28D35D4800DE3DBE /* OnbordingVIewController.swift in Sources */,
 				5BFE9EB828D2CDBA00DE3DBE /* OnBordingContainerViewController.swift in Sources */,
 				5BD218E228CFDB4900D1F941 /* LoginViewController.swift in Sources */,
 				5BD218DE28CFDB4800D1F941 /* AppDelegate.swift in Sources */,
